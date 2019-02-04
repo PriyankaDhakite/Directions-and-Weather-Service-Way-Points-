@@ -1,0 +1,8 @@
+WayPoints:
+A web application made with data from Google Complex Directions API and OpenWeatherMap API
+The application allows users to select an origin and destination from text-input fields. It then displays a route from the start city to the end city, along with markers placed along the way to display weather information. 
+
+Usage:
+It requires users to get an OpenWeatherMAp API Key (http://home.openweathermap.org/) and a Directions API key(https://developers.google.com/maps/documentation/directions/get-api-key) and replace the variables 'openWeatherMapKey' in controller.js and Your_API_Key in src="https://maps.googleapis.com/maps/api/js?key=Your_API_Key&callback=initMap"> with them repectively.
+
+Additional screenshots of the working application are included. 
